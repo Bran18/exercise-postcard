@@ -4,29 +4,40 @@
         <title>
             My postcard
         </title>  
-        <link rel="stylesheet" href="style.css">      
+        <link rel="stylesheet" href="style.css">  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">    
     </head>
 
     <body>
+        <header>
+
+        </header>
         <section>
-            <div class="postcard">
-            <div class="postcard-header">
-                <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="4geeks">
-                <h1>My postcard</h1>
-            </div>
-            <div class="postcard-body"></div>
-            <div class="left-part">
-                <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles</p>
-                <p>Muchas versiones han evolucionado a través de los años,</p>
-            </div>
-            <div class="right-part"></div>
+            <form class="postcard" action="https://formspree.io/andreyfdez18@gmial.com" method="POST">
+                <div class="postcard-header">
+                    <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="4geeks">
+                     <h1>My postcard</h1>
+                </div>
+                <div class="postcard-body">
+                    <div class="left-part">
+                        <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles</p>
+                        <p>Muchas versiones han evolucionado a través de los años,</p>
+                    </div>
+                     <div class="right-part">
+                           <input type="text" name="fullname" placeholder="Some Name">
+                            <input type="text" name="email" placeholder="Some Email">
+                             <input type="text" name="message" placeholder="Something to say">
+                      </div>
+                    </div>
+                        <div class="postcard-footer">
+                         <input type="submit" value="Send postcard">
+                        </div>
+                    </form>
+                </section>
+            <footer>
 
-
-            <div class="postcard-footer">
-                <input type="submit" name="">
-            </div>
-            </div>
-        </section>
+         </footer>
+        </div>
     </body>
-
 </html>
